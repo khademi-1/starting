@@ -18,3 +18,27 @@ height: 100% !important;
        position: relative;
        top: 6px;
     }
+    .user_list_item .user_list_arrow_icon{
+        transition: all 300ms ease;
+        -webkit-transition: all 300ms;
+        -o-transition: all 300ms;
+        -moz-transition: all 300ms;
+    }
+    .user_list_item.active .user_list_arrow_icon{
+   transform: rotate(180deg);
+    }
+    .user_list_item.active , .user_list_item.active .collapsible-header{
+        background-color: #6a89988d;
+    }
+    .bluegrayl-text{
+
+    }
+    table.highlight > tbody > tr:hover {
+  background-color:#37474f84 ;
+}
+.container{
+    width: 100% !important;
+}
+.add_user_modal_back{
+    
+}
