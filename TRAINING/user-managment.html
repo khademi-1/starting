@@ -52,7 +52,7 @@
 
         <div class="p-l-10 p-r-10 p-t-10 m-t-28 col s12 m4 l3">
 
-            <button class="waves-effect waves-light btn blue-grey darken-1 p-l-30 p-r-30 w-full rounded_pill flex-c">
+            <button id="add-user-button" class="waves-effect waves-light btn blue-grey darken-1 p-l-30 p-r-30 w-full rounded_pill flex-c">
                 <i class="material-icons pos m-r-5">add</i>
                 Add User
             </button>
@@ -248,7 +248,37 @@
         </div>
     </section>
     <!-- content ------------ end -->
-    <div class="add_user_modal_back"></div>
+<div class="backk-full-bg dis-none"></div>
+<div class="backk-full container rounded_top_15 trans-0-1">
+    <div class="row p-t-10 p-b-10 p-r-40 p-l-40 center-on-small-only">
+        <h5>
+            <i class="material-icons m-r-4 m-l-4 pos-relative top-4">person add</i>
+            Add User
+        </h5>
+
+        <form>
+<div class="input-field col s12">
+<input id="name" class="validate" type="text">
+<label for="name">name</label>
+</div>
+<div class="input-field col s12">
+    <input id="username" class="validate" type="text">
+<label for="username">User name</label>
+</div>
+<div class="input-field col s12">
+    <input id="email" class="validate" type="email">
+<label for="email">Email</label>
+</div>
+<button type="button" class="waves-effect waves-light btn blue-grey m-t-20 m-b-10 w-full max-w-250 rounded_pill">
+submmit
+</button>
+<button type="button" class="waves-effect waves-light btn blue-grey m-l-10 m-r-10 m-t-20 m-b-10 w-full max-w-250 rounded_pill">
+Log in
+</button> 
+        </form>
+
+    </div>
+</div>
 
 
     <script src="/TRAINING/assets/materialize/js/materialize.min.js"></script>

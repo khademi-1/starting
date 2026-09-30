@@ -28,17 +28,40 @@ height: 100% !important;
    transform: rotate(180deg);
     }
     .user_list_item.active , .user_list_item.active .collapsible-header{
-        background-color: #6a89988d;
+        background-color: #607f8d57;
     }
     .bluegrayl-text{
 
     }
     table.highlight > tbody > tr:hover {
-  background-color:#37474f84 ;
+  background-color:#6a89988d ;
 }
 .container{
     width: 100% !important;
 }
 .add_user_modal_back{
     
+}
+.backk-full-bg{
+   position: fixed;
+width: 100%;
+height: 100vh;
+z-index:999;
+background-color: #192023cf;
+top: 0;
+left: 0;
+}
+.backk-full{position: fixed;
+height: 70vh;
+width: 100%;
+max-width: 1000px;
+background-color: #bfc7ca;
+z-index: 1000;
+bottom: -70vh;
+left: 0;
+right: 0;
+}
+.backk-full.show{
+    bottom: 0;
+    box-shadow: 0 0 50px #36505b;
 }
